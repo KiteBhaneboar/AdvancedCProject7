@@ -1,0 +1,24 @@
+﻿  AIController.cpp
+  EasyAIController.cpp
+  EasyAIController.hpp
+  HardAIController.cpp
+  HardAIController.hpp
+  MediumAIController.cpp
+  MediumAIController.hpp
+  Board.cpp
+  Controller.hpp
+  HumanController.cpp
+  MP7.cpp
+  Player.cpp
+  Sequences.cpp
+C:\Users\hills\source\repos\Machine Problem 7\Machine Problem 7\Sequences.cpp(50,21): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\hills\source\repos\Machine Problem 7\Machine Problem 7\Sequences.cpp(50,26): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  Generating Code...
+x64\Debug\EasyAIController.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug\HardAIController.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug\MediumAIController.obj : warning LNK4042: object specified more than once; extras ignored
+Board.obj : error LNK2005: "enum Direction * directions" (?directions@@3PAW4Direction@@A) already defined in EasyAIController.obj
+MP7.obj : error LNK2005: "enum Direction * directions" (?directions@@3PAW4Direction@@A) already defined in EasyAIController.obj
+Player.obj : error LNK2005: "enum Direction * directions" (?directions@@3PAW4Direction@@A) already defined in EasyAIController.obj
+Sequences.obj : error LNK2005: "enum Direction * directions" (?directions@@3PAW4Direction@@A) already defined in EasyAIController.obj
+C:\Users\hills\source\repos\Machine Problem 7\x64\Debug\Machine Problem 7.exe : fatal error LNK1169: one or more multiply defined symbols found
